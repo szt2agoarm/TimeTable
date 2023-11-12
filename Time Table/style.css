@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #504e4e;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.schedule-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;  
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 15px;
+    width: calc(12% - 20px);
+}
+
+#night-mode {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.night-mode {
+    background-color: #222;
+    color: black;
+}
+
+.card-header {
+    font-weight: bold;
+}
+
+.card-time {
+    font-size: 14px;
+    color: #888;
+}
